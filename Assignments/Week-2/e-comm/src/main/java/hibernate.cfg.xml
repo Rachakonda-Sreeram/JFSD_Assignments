@@ -1,0 +1,25 @@
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+ 
+<hibernate-configuration>
+    <session-factory>
+        <!-- Database connection properties - Driver, URL, user, password -->
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/ecom</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">Sreeram@113</property>
+        <property name="hbm2ddl.auto">update</property>
+        <property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
+        <property name="show_sql">true</property>
+        <mapping class="com.hexaware.ecom.entity.Address" /> 
+        <mapping class="com.hexaware.ecom.entity.Cart" />
+        <mapping class="com.hexaware.ecom.entity.Category" /> 
+        <mapping class="com.hexaware.ecom.entity.Customer" />
+        <mapping class="com.hexaware.ecom.entity.Order" /> 
+        <mapping class="com.hexaware.ecom.entity.Payment" /> 
+        <mapping class="com.hexaware.ecom.entity.Product" />
+        <mapping class="com.hexaware.ecom.entity.Seller" /> 
+        <mapping class="com.hexaware.ecom.entity.SubCategory" />
+        <mapping class="com.hexaware.ecom.entity.User" /> 
+        
+    </session-factory>
+</hibernate-configuration>
