@@ -1,0 +1,208 @@
+2024-02-01T16:36:33.656+05:30  INFO 2100 --- [main] c.h.s.SpringrestjpaApplication           : Starting SpringrestjpaApplication using Java 17.0.9 with PID 2100 (C:\Users\Asus\Documents\Core_Java\springrestjpa\target\classes started by Asus in C:\Users\Asus\Documents\Core_Java\springrestjpa)
+2024-02-01T16:36:33.659+05:30  INFO 2100 --- [main] c.h.s.SpringrestjpaApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-02-01T16:36:34.405+05:30  INFO 2100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-01T16:36:34.467+05:30  INFO 2100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interface.
+2024-02-01T16:36:34.994+05:30  INFO 2100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-01T16:36:35.006+05:30  INFO 2100 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-01T16:36:35.006+05:30  INFO 2100 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-01T16:36:35.119+05:30  INFO 2100 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-01T16:36:35.120+05:30  INFO 2100 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1411 ms
+2024-02-01T16:36:35.252+05:30  INFO 2100 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-01T16:36:35.304+05:30  INFO 2100 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.20.Final
+2024-02-01T16:36:35.308+05:30  INFO 2100 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-02-01T16:36:35.597+05:30  INFO 2100 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-01T16:36:35.633+05:30  INFO 2100 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-01T16:36:36.007+05:30  INFO 2100 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@53e28097
+2024-02-01T16:36:36.010+05:30  INFO 2100 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-01T16:36:36.994+05:30  INFO 2100 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-01T16:36:37.048+05:30  INFO 2100 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-01T16:36:37.349+05:30  INFO 2100 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-01T16:36:37.824+05:30  WARN 2100 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-01T16:36:38.638+05:30  INFO 2100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-01T16:36:38.648+05:30  INFO 2100 --- [main] c.h.s.SpringrestjpaApplication           : Started SpringrestjpaApplication in 5.43 seconds (process running for 6.204)
+2024-02-01T18:27:04.733+05:30  INFO 2100 --- [RMI TCP Connection(115)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-02-01T18:27:04.762+05:30  INFO 2100 --- [RMI TCP Connection(115)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-02-01T18:27:04.782+05:30  INFO 2100 --- [RMI TCP Connection(115)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-01T18:27:04.789+05:30  INFO 2100 --- [RMI TCP Connection(115)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-01T18:27:04.807+05:30  INFO 2100 --- [RMI TCP Connection(115)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-01T21:22:18.209+05:30  INFO 10756 --- [main] c.h.s.SpringrestjpaApplication           : Starting SpringrestjpaApplication using Java 17.0.9 with PID 10756 (C:\Users\Asus\Documents\Core_Java\springrestjpa\target\classes started by Asus in C:\Users\Asus\Documents\Core_Java\springrestjpa)
+2024-02-01T21:22:18.212+05:30  INFO 10756 --- [main] c.h.s.SpringrestjpaApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-02-01T21:22:18.949+05:30  INFO 10756 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-01T21:22:19.006+05:30  INFO 10756 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interface.
+2024-02-01T21:22:19.510+05:30  INFO 10756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-01T21:22:19.518+05:30  INFO 10756 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-01T21:22:19.519+05:30  INFO 10756 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-01T21:22:19.628+05:30  INFO 10756 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-01T21:22:19.629+05:30  INFO 10756 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1370 ms
+2024-02-01T21:22:19.758+05:30  INFO 10756 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-01T21:22:19.807+05:30  INFO 10756 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.20.Final
+2024-02-01T21:22:19.809+05:30  INFO 10756 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-02-01T21:22:20.064+05:30  INFO 10756 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-01T21:22:20.089+05:30  INFO 10756 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-01T21:22:20.399+05:30  INFO 10756 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@53e28097
+2024-02-01T21:22:20.401+05:30  INFO 10756 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-01T21:22:21.266+05:30  INFO 10756 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-01T21:22:21.319+05:30  INFO 10756 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-01T21:22:21.595+05:30  INFO 10756 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-01T21:22:22.030+05:30  WARN 10756 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-01T21:22:22.776+05:30  INFO 10756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-01T21:22:22.786+05:30  INFO 10756 --- [main] c.h.s.SpringrestjpaApplication           : Started SpringrestjpaApplication in 4.966 seconds (process running for 5.68)
+2024-02-01T21:22:35.648+05:30  INFO 23128 --- [main] c.h.s.service.EmployeeServiceImplTest    : Starting EmployeeServiceImplTest using Java 17.0.9 with PID 23128 (started by Asus in C:\Users\Asus\Documents\Core_Java\springrestjpa)
+2024-02-01T21:22:35.650+05:30  INFO 23128 --- [main] c.h.s.service.EmployeeServiceImplTest    : No active profile set, falling back to 1 default profile: "default"
+2024-02-01T21:22:36.617+05:30  INFO 23128 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-01T21:22:36.703+05:30  INFO 23128 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interface.
+2024-02-01T21:22:37.309+05:30  INFO 23128 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-01T21:22:37.393+05:30  INFO 23128 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.20.Final
+2024-02-01T21:22:37.397+05:30  INFO 23128 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-02-01T21:22:37.795+05:30  INFO 23128 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-01T21:22:37.834+05:30  INFO 23128 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-01T21:22:38.271+05:30  INFO 23128 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ac4e690
+2024-02-01T21:22:38.277+05:30  INFO 23128 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-01T21:22:39.393+05:30  INFO 23128 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-01T21:22:39.438+05:30  INFO 23128 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-01T21:22:39.834+05:30  INFO 23128 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-01T21:22:40.526+05:30  WARN 23128 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-01T21:22:41.848+05:30  INFO 23128 --- [main] c.h.s.service.EmployeeServiceImplTest    : Started EmployeeServiceImplTest in 6.663 seconds (process running for 8.251)
+2024-02-01T21:22:42.642+05:30  INFO 23128 --- [main] c.h.s.service.EmployeeServiceImpl        : ADD EMPLOYEE EXCECUTED
+2024-02-01T21:22:42.726+05:30  INFO 23128 --- [main] c.h.s.service.EmployeeServiceImplTest    : TEST ADD EMPLOYEE EXCECUTED
+2024-02-01T21:22:42.895+05:30  INFO 23128 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-01T21:22:42.899+05:30  INFO 23128 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-01T21:22:42.911+05:30  INFO 23128 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-01T21:42:44.039+05:30  INFO 5224 --- [main] c.h.s.service.EmployeeServiceImplTest    : Starting EmployeeServiceImplTest using Java 17.0.9 with PID 5224 (started by Asus in C:\Users\Asus\Documents\Core_Java\springrestjpa)
+2024-02-01T21:42:44.041+05:30  INFO 5224 --- [main] c.h.s.service.EmployeeServiceImplTest    : No active profile set, falling back to 1 default profile: "default"
+2024-02-01T21:42:50.934+05:30  INFO 10756 --- [RMI TCP Connection(24)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-02-01T21:42:50.946+05:30  INFO 10756 --- [RMI TCP Connection(24)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-02-01T21:42:50.954+05:30  INFO 10756 --- [RMI TCP Connection(24)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-01T21:42:50.958+05:30  INFO 10756 --- [RMI TCP Connection(24)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-01T21:42:50.966+05:30  INFO 10756 --- [RMI TCP Connection(24)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-01T21:42:53.297+05:30  INFO 1048 --- [main] c.h.s.SpringrestjpaApplication           : Starting SpringrestjpaApplication using Java 17.0.9 with PID 1048 (C:\Users\Asus\Documents\Core_Java\springrestjpa\target\classes started by Asus in C:\Users\Asus\Documents\Core_Java\springrestjpa)
+2024-02-01T21:42:53.300+05:30  INFO 1048 --- [main] c.h.s.SpringrestjpaApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-02-01T21:42:54.024+05:30  INFO 1048 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-01T21:42:54.082+05:30  INFO 1048 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interface.
+2024-02-01T21:42:54.594+05:30  INFO 1048 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-01T21:42:54.602+05:30  INFO 1048 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-01T21:42:54.603+05:30  INFO 1048 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-01T21:42:54.710+05:30  INFO 1048 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-01T21:42:54.710+05:30  INFO 1048 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1354 ms
+2024-02-01T21:42:54.829+05:30  INFO 1048 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-01T21:42:54.883+05:30  INFO 1048 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.20.Final
+2024-02-01T21:42:54.885+05:30  INFO 1048 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-02-01T21:42:55.112+05:30  INFO 1048 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-01T21:42:55.136+05:30  INFO 1048 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-01T21:42:55.444+05:30  INFO 1048 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@25f7cc38
+2024-02-01T21:42:55.446+05:30  INFO 1048 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-01T21:42:56.291+05:30  INFO 1048 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-01T21:42:56.336+05:30  INFO 1048 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-01T21:42:56.615+05:30  INFO 1048 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-01T21:42:57.038+05:30  WARN 1048 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-01T21:42:57.761+05:30  INFO 1048 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-01T21:42:57.770+05:30  INFO 1048 --- [main] c.h.s.SpringrestjpaApplication           : Started SpringrestjpaApplication in 4.866 seconds (process running for 5.572)
+2024-02-01T21:43:10.637+05:30  INFO 17768 --- [main] c.h.s.r.EmployeeRestControllerTest       : Starting EmployeeRestControllerTest using Java 17.0.9 with PID 17768 (started by Asus in C:\Users\Asus\Documents\Core_Java\springrestjpa)
+2024-02-01T21:43:10.639+05:30  INFO 17768 --- [main] c.h.s.r.EmployeeRestControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2024-02-01T21:43:11.670+05:30  INFO 17768 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-01T21:43:11.765+05:30  INFO 17768 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 1 JPA repository interface.
+2024-02-01T21:43:12.407+05:30  INFO 17768 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-01T21:43:12.488+05:30  INFO 17768 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.20.Final
+2024-02-01T21:43:12.492+05:30  INFO 17768 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-02-01T21:43:12.894+05:30  INFO 17768 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-01T21:43:12.944+05:30  INFO 17768 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-01T21:43:13.382+05:30  INFO 17768 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8af1c49
+2024-02-01T21:43:13.385+05:30  INFO 17768 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-01T21:43:14.590+05:30  INFO 17768 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-01T21:43:14.639+05:30  INFO 17768 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-01T21:43:15.025+05:30  INFO 17768 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-01T21:43:15.695+05:30  WARN 17768 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-01T21:43:16.918+05:30  INFO 17768 --- [main] c.h.s.r.EmployeeRestControllerTest       : Started EmployeeRestControllerTest in 6.759 seconds (process running for 8.108)
+2024-02-01T21:43:17.797+05:30  INFO 1048 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-01T21:43:17.797+05:30  INFO 1048 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-01T21:43:17.798+05:30  INFO 1048 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-02-01T21:43:18.063+05:30  INFO 1048 --- [http-nio-8080-exec-5] c.h.s.r.EmployeeRestController           : Employee Rest Controller excecuted
+2024-02-01T21:43:18.064+05:30  INFO 1048 --- [http-nio-8080-exec-5] c.h.s.service.EmployeeServiceImpl        : ADD EMPLOYEE EXCECUTED
+2024-02-01T21:43:18.112+05:30  WARN 1048 --- [http-nio-8080-exec-5] c.h.s.r.EmployeeRestController           : Employee object is not null in rest controler
+2024-02-01T21:43:18.194+05:30  INFO 1048 --- [http-nio-8080-exec-3] c.h.s.r.EmployeeRestController           : Employee Rest Controller excecuted
+2024-02-01T21:43:18.195+05:30  INFO 1048 --- [http-nio-8080-exec-3] c.h.s.service.EmployeeServiceImpl        : ADD EMPLOYEE EXCECUTED
+2024-02-01T21:43:18.214+05:30  WARN 1048 --- [http-nio-8080-exec-3] c.h.s.r.EmployeeRestController           : Employee object is not null in rest controler
+2024-02-01T21:43:18.231+05:30  INFO 17768 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-01T21:43:18.235+05:30  INFO 17768 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-01T21:43:18.246+05:30  INFO 17768 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-01T21:44:29.386+05:30  INFO 24300 --- [main] c.h.s.r.EmployeeRestControllerTest       : Starting EmployeeRestControllerTest using Java 17.0.9 with PID 24300 (started by Asus in C:\Users\Asus\Documents\Core_Java\springrestjpa)
+2024-02-01T21:44:29.389+05:30  INFO 24300 --- [main] c.h.s.r.EmployeeRestControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2024-02-01T21:44:30.403+05:30  INFO 24300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-01T21:44:30.494+05:30  INFO 24300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77 ms. Found 1 JPA repository interface.
+2024-02-01T21:44:31.100+05:30  INFO 24300 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-01T21:44:31.194+05:30  INFO 24300 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.20.Final
+2024-02-01T21:44:31.199+05:30  INFO 24300 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-02-01T21:44:31.645+05:30  INFO 24300 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-01T21:44:31.691+05:30  INFO 24300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-01T21:44:32.183+05:30  INFO 24300 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f1158ee
+2024-02-01T21:44:32.187+05:30  INFO 24300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-01T21:44:33.291+05:30  INFO 24300 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-01T21:44:33.338+05:30  INFO 24300 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-01T21:44:33.779+05:30  INFO 24300 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-01T21:44:34.457+05:30  WARN 24300 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-01T21:44:35.841+05:30  INFO 24300 --- [main] c.h.s.r.EmployeeRestControllerTest       : Started EmployeeRestControllerTest in 6.91 seconds (process running for 8.263)
+2024-02-01T21:44:36.673+05:30  INFO 1048 --- [http-nio-8080-exec-8] c.h.s.r.EmployeeRestController           : Employee Rest Controller excecuted
+2024-02-01T21:44:36.674+05:30  INFO 1048 --- [http-nio-8080-exec-8] c.h.s.service.EmployeeServiceImpl        : ADD EMPLOYEE EXCECUTED
+2024-02-01T21:44:36.684+05:30  WARN 1048 --- [http-nio-8080-exec-8] c.h.s.r.EmployeeRestController           : Employee object is not null in rest controler
+2024-02-01T21:44:36.720+05:30  INFO 1048 --- [http-nio-8080-exec-2] c.h.s.r.EmployeeRestController           : Employee Rest Controller excecuted
+2024-02-01T21:44:36.721+05:30  INFO 1048 --- [http-nio-8080-exec-2] c.h.s.service.EmployeeServiceImpl        : ADD EMPLOYEE EXCECUTED
+2024-02-01T21:44:36.723+05:30  WARN 1048 --- [http-nio-8080-exec-2] c.h.s.r.EmployeeRestController           : Employee object is not null in rest controler
+2024-02-01T21:44:36.748+05:30  INFO 24300 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-01T21:44:36.751+05:30  INFO 24300 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-01T21:44:36.762+05:30  INFO 24300 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-01T21:53:07.480+05:30  INFO 19932 --- [main] c.h.s.r.EmployeeRestControllerTest       : Starting EmployeeRestControllerTest using Java 17.0.9 with PID 19932 (started by Asus in C:\Users\Asus\Documents\Core_Java\springrestjpa)
+2024-02-01T21:53:07.482+05:30  INFO 19932 --- [main] c.h.s.r.EmployeeRestControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2024-02-01T21:53:08.448+05:30  INFO 19932 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-01T21:53:08.529+05:30  INFO 19932 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interface.
+2024-02-01T21:53:09.117+05:30  INFO 19932 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-01T21:53:09.203+05:30  INFO 19932 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.20.Final
+2024-02-01T21:53:09.207+05:30  INFO 19932 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-02-01T21:53:09.624+05:30  INFO 19932 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-01T21:53:09.666+05:30  INFO 19932 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-01T21:53:10.071+05:30  INFO 19932 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f07930a
+2024-02-01T21:53:10.073+05:30  INFO 19932 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-01T21:53:11.153+05:30  INFO 19932 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-01T21:53:11.217+05:30  INFO 19932 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-01T21:53:11.653+05:30  INFO 19932 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-01T21:53:12.340+05:30  WARN 19932 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-01T21:53:13.696+05:30  INFO 19932 --- [main] c.h.s.r.EmployeeRestControllerTest       : Started EmployeeRestControllerTest in 6.647 seconds (process running for 7.954)
+2024-02-01T21:53:14.568+05:30  INFO 1048 --- [http-nio-8080-exec-6] c.h.s.r.EmployeeRestController           : Employee Rest Controller excecuted
+2024-02-01T21:53:14.569+05:30  INFO 1048 --- [http-nio-8080-exec-6] c.h.s.service.EmployeeServiceImpl        : ADD EMPLOYEE EXCECUTED
+2024-02-01T21:53:14.577+05:30  WARN 1048 --- [http-nio-8080-exec-6] c.h.s.r.EmployeeRestController           : Employee object is not null in rest controler
+2024-02-01T21:53:14.614+05:30  INFO 1048 --- [http-nio-8080-exec-7] c.h.s.r.EmployeeRestController           : Employee Rest Controller excecuted
+2024-02-01T21:53:14.615+05:30  INFO 1048 --- [http-nio-8080-exec-7] c.h.s.service.EmployeeServiceImpl        : ADD EMPLOYEE EXCECUTED
+2024-02-01T21:53:14.619+05:30  WARN 1048 --- [http-nio-8080-exec-7] c.h.s.r.EmployeeRestController           : Employee object is not null in rest controler
+2024-02-01T21:53:14.660+05:30  INFO 19932 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-01T21:53:14.663+05:30  INFO 19932 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-01T21:53:14.673+05:30  INFO 19932 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-01T21:53:45.121+05:30  INFO 1220 --- [main] c.h.s.r.EmployeeRestControllerTest       : Starting EmployeeRestControllerTest using Java 17.0.9 with PID 1220 (started by Asus in C:\Users\Asus\Documents\Core_Java\springrestjpa)
+2024-02-01T21:53:45.123+05:30  INFO 1220 --- [main] c.h.s.r.EmployeeRestControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2024-02-01T21:53:46.151+05:30  INFO 1220 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-01T21:53:46.254+05:30  INFO 1220 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89 ms. Found 1 JPA repository interface.
+2024-02-01T21:53:46.917+05:30  INFO 1220 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-01T21:53:47.012+05:30  INFO 1220 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.20.Final
+2024-02-01T21:53:47.019+05:30  INFO 1220 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-02-01T21:53:47.464+05:30  INFO 1220 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-01T21:53:47.517+05:30  INFO 1220 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-01T21:53:47.952+05:30  INFO 1220 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4540c7
+2024-02-01T21:53:47.955+05:30  INFO 1220 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-01T21:53:49.144+05:30  INFO 1220 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-01T21:53:49.200+05:30  INFO 1220 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-01T21:53:49.644+05:30  INFO 1220 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-01T21:53:50.339+05:30  WARN 1220 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-01T21:53:51.590+05:30  INFO 1220 --- [main] c.h.s.r.EmployeeRestControllerTest       : Started EmployeeRestControllerTest in 6.934 seconds (process running for 8.317)
+2024-02-01T21:53:52.442+05:30  INFO 1048 --- [http-nio-8080-exec-2] c.h.s.r.EmployeeRestController           : Employee Rest Controller excecuted
+2024-02-01T21:53:52.443+05:30  INFO 1048 --- [http-nio-8080-exec-2] c.h.s.service.EmployeeServiceImpl        : ADD EMPLOYEE EXCECUTED
+2024-02-01T21:53:52.452+05:30  WARN 1048 --- [http-nio-8080-exec-2] c.h.s.r.EmployeeRestController           : Employee object is not null in rest controler
+2024-02-01T21:53:52.488+05:30  INFO 1048 --- [http-nio-8080-exec-6] c.h.s.r.EmployeeRestController           : Employee Rest Controller excecuted
+2024-02-01T21:53:52.489+05:30  INFO 1048 --- [http-nio-8080-exec-6] c.h.s.service.EmployeeServiceImpl        : ADD EMPLOYEE EXCECUTED
+2024-02-01T21:53:52.492+05:30  WARN 1048 --- [http-nio-8080-exec-6] c.h.s.r.EmployeeRestController           : Employee object is not null in rest controler
+2024-02-01T21:53:52.569+05:30  INFO 1220 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-01T21:53:52.572+05:30  INFO 1220 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-01T21:53:52.584+05:30  INFO 1220 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-01T22:38:45.937+05:30  INFO 1048 --- [RMI TCP Connection(59)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-02-01T22:38:45.964+05:30  INFO 1048 --- [RMI TCP Connection(59)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-02-01T22:38:45.967+05:30  INFO 1048 --- [RMI TCP Connection(59)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-02-01T22:38:45.982+05:30  INFO 1048 --- [RMI TCP Connection(59)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-01T22:38:45.989+05:30  INFO 1048 --- [RMI TCP Connection(59)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-01T22:38:45.997+05:30  INFO 1048 --- [RMI TCP Connection(59)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
