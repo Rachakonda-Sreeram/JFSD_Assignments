@@ -1,0 +1,24 @@
+[32m2024-02-06 00:10:00.467[0;39m [INFO] com.hexaware.customerapi.CustomerRestApiApplication [main] Starting CustomerRestApiApplication using Java 17.0.9 with PID 8676 (C:\Users\Asus\Documents\Core_Java\customer-rest-api\target\classes started by Asus in C:\Users\Asus\Documents\Core_Java\customer-rest-api)
+[32m2024-02-06 00:10:00.475[0;39m [INFO] com.hexaware.customerapi.CustomerRestApiApplication [main] No active profile set, falling back to 1 default profile: "default"
+[32m2024-02-06 00:10:00.998[0;39m [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[32m2024-02-06 00:10:01.051[0;39m [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interface.
+[32m2024-02-06 00:10:01.487[0;39m [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+[32m2024-02-06 00:10:01.499[0;39m [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+[32m2024-02-06 00:10:01.499[0;39m [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.18]
+[32m2024-02-06 00:10:01.602[0;39m [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+[32m2024-02-06 00:10:01.603[0;39m [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1079 ms
+[32m2024-02-06 00:10:01.732[0;39m [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+[32m2024-02-06 00:10:01.779[0;39m [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.20.Final
+[32m2024-02-06 00:10:01.781[0;39m [INFO] org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+[32m2024-02-06 00:10:02.019[0;39m [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+[32m2024-02-06 00:10:02.042[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+[32m2024-02-06 00:10:02.328[0;39m [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@618f627b
+[32m2024-02-06 00:10:02.330[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+[32m2024-02-06 00:10:03.115[0;39m [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[32m2024-02-06 00:10:03.156[0;39m [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[32m2024-02-06 00:10:03.392[0;39m [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[32m2024-02-06 00:10:03.681[0;39m [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+[32m2024-02-06 00:10:03.690[0;39m [INFO] com.hexaware.customerapi.CustomerRestApiApplication [main] Started CustomerRestApiApplication in 3.589 seconds (process running for 4.252)
+[32m2024-02-06 00:11:22.928[0;39m [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[32m2024-02-06 00:11:22.930[0;39m [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+[32m2024-02-06 00:11:22.931[0;39m [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-1] Completed initialization in 1 ms
