@@ -1,0 +1,14 @@
+<h1>This is App</h1>
+
+<h2> A Routing component</h2>
+
+<a routerLink="/home">Home</a>
+<button type="submit" routerLink="/contact/{{username}}">Call us </button>
+<ul>
+<li><a routerLink = "/aboutus" [queryParams] = "{city:'Hyd',country:'India'}">About us </a>We are Full Stack Developers.</li>
+
+</ul>
+
+<router-outlet>
+
+    </router-outlet>

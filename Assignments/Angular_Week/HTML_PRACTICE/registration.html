@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="registration.css">
+</head> 
+<body>
+    <div class="container">
+        
+    <form>
+        <h3>Registration form</h3>
+        <label for="Full Name">Full Name</label>
+        <input type="text" id="Full Name" name="Full Name" placeholder="Enter full name">
+        <br>
+        <label for="E-mail Address">Email</label>
+        <input type="email" id="E-mail Address" name="E-mail Address" placeholder="Enter email address">
+        <br>
+        <div class ="side">
+        
+            <label for="mobile_number">Mobile Number:</label>
+            <input type="text" id="mobile_number" name="mobile_number" placeholder="Enter Mobile Number">
+        
+        </div>
+        <div class="side">
+            <label for="birth_date">Birth Date:</label>
+            <input type="date" id="birth_date" name="birth_date">
+        </div>
+        
+        <br>
+        <br>
+        <label>Gender</label>
+        <div class="radio-group">
+        <input type="radio" id="male" name="gender" value="male">
+         <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="prefer-not-to-say" name="gender" value="prefer not to say">
+        <label for="prefer-not-to-say">Prefer not to say</label>
+        </div>
+    <br>
+    <label for="Address">Address</label>
+    <input type="text" id="Address" name="Address" placeholder="Enter Address">
+
+    <div>
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option hidden>Country</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="Australia">Australia</option>
+        </select>
+    </div>
+    
+    <div>
+        <label for="postal_code">Postal code:</label>
+        <input type="text" id="postal_code" name="postal_code" placeholder="Enter Postal code">
+    </div>
+    
+    
+        <br> <button type="submit" class="full-width">Submit</button>
+    </form>
+</div>
+</body>
+</html>

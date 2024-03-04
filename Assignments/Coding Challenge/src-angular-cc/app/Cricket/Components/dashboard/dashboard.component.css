@@ -1,0 +1,19 @@
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    width: 400px;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+.card button {
+    padding: 10px 20px;
+    background-color: grey;
+    border-radius: 15px;
+    cursor: pointer; 
+}
+
+.card button:hover {
+    background-color: red; 
+}
